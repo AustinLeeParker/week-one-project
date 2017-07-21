@@ -64,6 +64,15 @@ div > p{
     font-size: 2rem;
 }
 
+div > ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+
+}
+
+
+
 
 
 footer{
