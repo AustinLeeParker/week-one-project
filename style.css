@@ -71,6 +71,22 @@ div > ul {
 
 }
 
+ .Submit{
+ display: flex;
+ align-content: center;
+ justify-content: center;
+}
+main > p{
+    margin-top: 10px;
+    font-family: 'Merriweather', serif; 
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1rem;
+}
+#submitBox{
+    display: flex;
+}
 
 
 
