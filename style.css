@@ -1,2 +1,5 @@
 /* font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif; */
+nav > href {
+   justify-content: center;
+}
