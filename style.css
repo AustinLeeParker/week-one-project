@@ -105,7 +105,24 @@ main > p{
     display: flex;
 }
 
-
+#bird{
+    width: 100px;
+    height: 100px;
+}
+blockquote{
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+}
+.verticle-line{
+width: 6px;
+height: 500px;
+background-color: red;
+}
+#par-about{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
 
 
 footer{
