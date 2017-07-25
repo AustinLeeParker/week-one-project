@@ -112,7 +112,7 @@ main > p{
 blockquote{
     font-style: italic;
     font-family: 'Merriweather', serif;
-    font-size: 10px;
+    font-size: 30px;
 }
 .verticle-line{
 width: 6px;
@@ -120,8 +120,88 @@ height: 500px;
 background-color: red;
 }
 #par-about{
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Merriweather', serif;
+}
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+    margin: 10px;
+}
+.bot-row{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
+    margin: 0 10px 10px 10px;
+}
+
+.productImages{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.productImages .row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.productImages p{
+    background-color: #2B2F26;
+    color: #F2F1E8;
+    padding: 10px;
+    align-self: flex-end;
+    font-size: 1.4em;
+}
+.box{
+    display: flex;
+    flex: 1;
+    height: 55vh;
+    margin: 5px;
+}
+.sm-box{
+    display: flex;
+    flex: 1;
+    height: 35vh;
+    margin: 5px;
+}
+.box:first-child{
+    flex: 3;
+}
+.sm-box:nth-child(3){
+    flex: 2;
+}
+
+#Endless{
+    background-image: url("./images/optimized/background-3.jpg");
+    background-size: cover;
+}
+#Sets{
+    background-image: url("./images/optimized/product-2.jpg");
+    background-size: cover;
+}
+#Textures{
+    background-image: url("./images/optimized/product-3.jpg");
+    background-size: cover;
+}
+#TeaTime{
+    background-image: url("./images/optimized/product-4.jpg");
+    background-size: cover;
+}
+#Jars{
+    background-image: url("./images/optimized/product-5.jpg");
+    background-size: cover;
+}
+#Wasabi{
+    background-image: url("./images/optimized/product-6.jpg");
+    background-size: cover;
+}
+#Sippin{
+    background-image:url("./images/optimized/product-7.jpg");
+    background-size: cover;
 }
 
 
@@ -132,7 +212,7 @@ footer{
     width: 100%;
     height: 50px;
     align-items: center; 
-    display: flex;
+     display: flex; 
     font-family: 'Merriweather', serif;
 
 }
