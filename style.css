@@ -18,6 +18,14 @@ main{
     margin:0px;
     background-color:#F2F1E8; 
 }
+main > p{
+    margin-top: 10px;
+    font-family: 'Merriweather', serif; 
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1rem;
+}
 body{
     margin: 0px;
     font-family: 'Roboto';
@@ -93,14 +101,7 @@ ul > li {
   display: flex; 
   align-content: center; 
 }
-main > p{
-    margin-top: 10px;
-    font-family: 'Merriweather', serif; 
-    font-weight: normal;
-    text-align: center;
-    padding-top: 10px;
-    font-size: 1rem;
-}
+
 #submitBox{
     display: flex;
 }
@@ -176,32 +177,39 @@ background-color: red;
 }
 
 #Endless{
-    background-image: url("./images/optimized/background-3.jpg");
+    background-image: url("./images/optimized/product-1.jpg");
     background-size: cover;
+    flex-grow: 3;
 }
 #Sets{
     background-image: url("./images/optimized/product-2.jpg");
     background-size: cover;
+    flex-grow: 1;
 }
 #Textures{
     background-image: url("./images/optimized/product-3.jpg");
     background-size: cover;
+    flex-grow: 1;
 }
 #TeaTime{
     background-image: url("./images/optimized/product-4.jpg");
     background-size: cover;
+    flex-grow: 1;
 }
 #Jars{
     background-image: url("./images/optimized/product-5.jpg");
     background-size: cover;
+    flex-grow: 1;
 }
 #Wasabi{
     background-image: url("./images/optimized/product-6.jpg");
     background-size: cover;
+    flex-grow: 2;
 }
 #Sippin{
     background-image:url("./images/optimized/product-7.jpg");
     background-size: cover;
+    flex-grow: 1;
 }
 
 
@@ -212,8 +220,10 @@ footer{
     width: 100%;
     height: 50px;
     align-items: center; 
-     display: flex; 
+      display: flex;  
     font-family: 'Merriweather', serif;
+    position: absolute;
+    bottom: -430px;
 
 }
 footer > div{
