@@ -65,7 +65,7 @@ nav{
 }
 .nav-item> a{
 color: black;
-padding: 25px 40px 0 40px;
+padding: 25px 40px 0 30px;
 font-variant-caps: all-small-caps;
 font-size: 1.75rem;
 
@@ -249,3 +249,21 @@ footer > div{
      color: white; 
 
 }
+#bckimg{
+    background-image: url(./images/optimized/background-2.jpg);
+    background-size: cover;
+}
+#white_box{
+    border: 75%;
+    background-color: white;
+    text-align: center;
+
+}
+.nlsub{
+    display: flex;
+    
+}
+/* nl_body{
+ background-image: url("images/background-2.jpg");
+ background-size: cover;   
+} */
